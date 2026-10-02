@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Logo from './Logo'
 import { Mail, MapPin, Phone } from 'lucide-react'
 
 const COLUMNS = [
@@ -37,7 +38,9 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-grid">
         <div>
-          <p className="footer-brand">CareerNova</p>
+          <p className="footer-brand">
+            <Logo size={30} /> CareerNova
+          </p>
           <p className="footer-text">
             A career portal that brings jobs, internships and campus placement drives together for students and
             recruiters.

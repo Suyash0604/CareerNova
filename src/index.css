@@ -602,22 +602,14 @@ textarea.input {
   text-decoration: none;
 }
 
-.brand-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 6px;
-  background: var(--primary);
-  color: var(--white);
-  font-size: 14px;
-  font-weight: 700;
+.brand svg {
+  flex-shrink: 0;
 }
 
 .brand-name {
   display: block;
-  font-size: 18px;
+  font-size: 19px;
+  letter-spacing: -0.01em;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -1684,7 +1676,10 @@ textarea.input {
 }
 
 .footer-brand {
-  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
   font-size: 18px;
   font-weight: 700;
   color: var(--white);

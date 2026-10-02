@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { LayoutDashboard, LogOut, Menu, User, X } from 'lucide-react'
+import Logo from './Logo'
 import NotificationDropdown from './NotificationDropdown'
 import { useApp } from '../context/AppContext'
 import { dashboardPath } from '../utils/auth'
@@ -29,7 +30,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className={`container nav-inner ${open ? 'open' : ''}`}>
         <Link to="/" className="brand">
-          <span className="brand-mark">CN</span>
+          <Logo size={38} />
           <span>
             <span className="brand-name">CareerNova</span>
             <span className="brand-tag">Careers. Opportunities. Growth.</span>
