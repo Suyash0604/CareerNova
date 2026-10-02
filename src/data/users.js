@@ -1,0 +1,42 @@
+// Demo accounts so every role can be tried without registering.
+// Passwords are plain text because this is a frontend-only demonstration.
+export const users = [
+  {
+    id: 'student-001',
+    name: 'Rahul Sharma',
+    email: 'rahul@example.com',
+    password: 'student123',
+    role: 'student',
+    phone: '9876543210',
+    college: 'Vishwakarma Institute of Technology, Pune',
+    degree: 'B.Tech',
+    branch: 'Computer Engineering',
+    graduationYear: '2027',
+    skills: ['Java', 'React', 'SQL'],
+    linkedin: '',
+    github: '',
+    about: '',
+    createdAt: '2026-08-12',
+  },
+  {
+    id: 'recruiter-001',
+    name: 'Neha Kulkarni',
+    email: 'recruiter@example.com',
+    password: 'recruiter123',
+    role: 'recruiter',
+    phone: '9822012345',
+    companyId: 'c1',
+    companyName: 'Sahyadri Softworks',
+    designation: 'Talent Acquisition Lead',
+    createdAt: '2026-07-03',
+  },
+  {
+    id: 'admin-001',
+    name: 'Portal Admin',
+    email: 'admin@example.com',
+    password: 'admin123',
+    role: 'admin',
+    phone: '9000000001',
+    createdAt: '2026-06-01',
+  },
+]
